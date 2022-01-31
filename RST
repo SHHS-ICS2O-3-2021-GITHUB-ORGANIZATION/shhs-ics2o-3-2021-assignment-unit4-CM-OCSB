@@ -1,0 +1,158 @@
+import random
+from random import randint
+print ("THIS IS AN AUTOMATED QUIZ")
+num1 = randint(0,100)
+num2 = randint(0,100)
+num4 = randint(50,100)
+num5 = randint(0,50)
+num6 = randint(0,100)
+num7 = randint(0,100)
+num8 = randint(0,100)
+num1 = randint(0,100)
+num9 = randint(0,100)
+num10 = randint(50,100)
+num11 = randint(0,50)
+num12 = randint(0,100)
+num13 = randint(0,100)
+num14 = randint(50,100)
+num16 = randint(0,50)
+num17 = randint(50,100)
+num18 = randint(50,100)
+num19 = randint(0,50)
+num20 = randint(0,100)
+num21 = randint(0,100)
+
+answer = (num1 + num2)
+print ("1.")
+print ("what is " + str(num1))
+print ("plus " + str(num2)) 
+num3 = int(input())
+print ("Answer")
+print (answer)
+if num3 ==(num1 + num2):
+  print("Correct!")
+else:
+  print("Incorrect!")
+
+answer2 = (num4 - num5)
+print ("2.")
+print ("what is " + str(num4))
+print ("minus " + str(num5))
+num3 = int(input())
+print ("Answer")
+print (answer2)
+if num3 ==(num4 - num5):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer3 = (num6 + num7)
+print ("3.")
+print ("what is " + str(num6))
+print ("plus " + str(num7))
+num3 = int(input())
+print ("Answer")
+print (answer3)
+if num3 ==(num6 + num7):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+
+answer4 = (num8 + num9)
+print ("4.")
+print ("what is " + str(num8))
+print ("plus " + str(num9))
+num3 = int(input())
+print ("Answer")
+print (answer4)
+if num3 ==(num8 + num9):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer5 = (num10 * num11)
+print ("5.")
+print ("what is " + str(num10))
+print ("multiplied by " + str(num11))
+num3 = int(input())
+print ("Answer")
+print (answer5)
+if num3 ==(num10 * num11):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer6 = (num20 * num21)
+print ("6.")
+print ("what is " + str(num20))
+print ("multiplied by " + str(num21))
+num3 = int(input())
+print ("Answer")
+print (answer6)
+if num3 ==(num20 * num21):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer7 = (num11 + num12)
+print ("7.")
+print ("what is " + str(num11))
+print ("plus " + str(num12))
+num3 = int(input())
+print ("Answer")
+print (answer7)
+if num3 ==(num11 + num12):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer8 = (num12 - num13)
+print ("8.")
+print ("what is " + str(num12))
+print ("minus " + str(num13))
+num3 = int(input())
+print ("Answer")
+print (answer8)
+if num3 ==(num12 - num13):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+answer9 = (num13 + num14)
+print ("9.")
+print ("what is " + str(num13))
+print ("plus " + str(num14))
+num3 = int(input())
+print ("Answer")
+print (answer9)
+if num3 ==(num12 + num13):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+  answer10 = (num14 - num16)
+print ("10.")
+print ("what is " + str(num14))
+print ("minus " + str(num16))
+num3 = int(input())
+print ("Answer")
+print (answer10)
+if num3 ==(num14 - num16):
+  print ("Correct!")
+else:
+  print("Incorrect")
+
+print ("BONUS QUESTION")
+answer11 = (num17 + num18 - num19)
+print ("1.")
+print ("what is " + str(num17))
+print ("plus " + str(num18))
+print ("minus " + str(num19))
+num3 = int(input())
+print ("Answer")
+print (answer11)
+if num3 ==(num17 + num18 - num19):
+  print ("Correct!")
+else:
+  print("Incorrect")
